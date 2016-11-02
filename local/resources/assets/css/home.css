@@ -19,16 +19,15 @@
 	margin:0 auto;
 	width: 60%;
 }
-
 .about-us .box h2 {	
 	width: 100%;
 	text-align: left;
-	margin: 100px 0 70px 70px;
+	padding: 100px 0 70px 70px;
 }
 .about-us .box .text {
 	width: 50%;
 	float: left;
-	margin-bottom: 120px;
+	margin-bottom: 130px;
 }
 .about-us .box .text h5 {
     width: 75%;
