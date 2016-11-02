@@ -187,14 +187,29 @@
 }
 .sl-box .one {
 	left: -25%;
+	opacity: 0;
+  	transition: left 1.5s 2.7s ease-out,opacity 3s 3.5s;
 }
 .sl-box .two {
 	left: -50%;
+	opacity: 0;
+	transition: left 2s 2s ease-out,opacity 2s 2.5s;
 }
 .sl-box .three {
 	left: -75%;
+	opacity: 0;
+	transition:  left 3s 1s, opacity 2s 1.5s;
 }
 .sl-box .four {
 	left: -100%;
+	opacity: 0;
+	transition:  left 3s, opacity 2s 0.5s;
 }
+.sl-box .slideLeft.cl{
+    left: 0%;
+	opacity: 1;
+}
+
+
+
 

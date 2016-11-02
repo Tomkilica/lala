@@ -3,7 +3,6 @@ $( document ).ready(function() {
 	$(window).scroll(function() {
 		$('.sl-box .cl').each(function(){
 			var imagePos = $(this).offset().top;
-			
 			var topOfWindow = $(window).scrollTop();
 				if (imagePos < topOfWindow + 800) {
 					$(this).addClass("slideLeft");
@@ -24,7 +23,7 @@ $( document ).ready(function() {
 	scrollNav();
 
 
- $('#button').on('click', function(){
+ 	$('#button').on('click', function(){
 		$('#product-title').addClass('active');
 
 	});
