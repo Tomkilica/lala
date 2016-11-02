@@ -24,14 +24,6 @@
 			<button><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
 		</div>	
 	</div>
-	<div class="white">
-	</div>	
-	<div class="product-element">	
-		<div class="img-container">
-			<div class="opacity"></div>	
-			<img src="./local/resources/assets/img/seeds.jpg">
-		</div>
-	</div>
 	<div class="sl-box">
 		<p class="text">We are a global design and technology consultancy.</p>
 		<div class="rw-box container">
@@ -71,7 +63,12 @@
 					<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
 				</div>
 			</div>
-
+		</div>
+	</div>
+	<div class="product-element">	
+		<div class="img-container">
+			<div class="opacity"></div>	
+			<img src="./local/resources/assets/img/seeds.jpg">
 		</div>
 	</div>
 	

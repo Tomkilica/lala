@@ -81,6 +81,7 @@
 .sl-box {
 	width: 100%;
 	position: relative;
+    float: left;
 }
 
 .sl-box .text {
