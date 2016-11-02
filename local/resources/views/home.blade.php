@@ -16,5 +16,21 @@
 			</div>
 		</div>
 	</div>
+	<div class="product-element">
+		<div class="img-container">	
+			<div class="opacity"></div>	
+			<img src="./local/resources/assets/img/oil2.jpg">
+			<h2>Suncokretovo ulje</h2>
+			<button><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+		</div>	
+	</div>
+	<div class="white">
+	</div>	
+	<div class="product-element">	
+		<div class="img-container">
+			<div class="opacity"></div>	
+			<img src="./local/resources/assets/img/seeds.jpg">
+		</div>
+	</div>
 	
 @endsection

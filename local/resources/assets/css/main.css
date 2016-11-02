@@ -46,3 +46,12 @@ header img {
     width: 68px;
     height: auto;
 }
+h2 {
+	font-size: 45px;
+	color: #373737;
+	letter-spacing: 3px;
+}
+h3 {
+	font-size: 30px;
+	color: #fff;
+}
