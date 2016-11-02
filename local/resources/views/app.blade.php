@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lala</title>
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/home.css">
+
+
 </head>
 <body>
 	<header >
@@ -16,8 +19,16 @@
 				<a href="#">O Nama</a>
 				<div class="grey-underline"></div>
 			</li>
-			<li><a href="#">Proizvodi</a></li>
-			<li><a href="#">Kontakt</a></li>
+			<li>
+				<a href="#">Proizvodi</a>
+				<div class="grey-underline"></div>
+
+			</li>
+			<li>
+				<a href="#">Kontakt</a>
+				<div class="grey-underline"></div>
+
+			</li>
 		</ul>
 	</header>
 
