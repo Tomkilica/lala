@@ -16,13 +16,15 @@ body, header, div, p, nav, h1, h2, h3,h4, h5, h6,ul, li, a, i {
 }
 header {
 	width: 100%;
-	height: 85px;
+	height: 70px;
 	background-color: #fff;
+	position: fixed;
+    z-index: 9999;
 }
 header ul {
 	float: right;
     padding-right: 76px;
-    padding-top: 34px;
+    padding-top: 22px;
 }
 header ul li {
 	float: left;
@@ -39,7 +41,7 @@ header ul li .grey-underline {
 	width: 0px;
     height: 2px;
     background: #339933;
-    margin-top: 8px;
+    margin-top: 3px;
     transition: width, 2s;
 }
 header ul li:hover a {
@@ -61,7 +63,7 @@ h2 {
 }
 h3 {
 	font-size: 30px;
-	color: #fff;
+	color: #515151;
 }
 h4 {
 	font-size: 25px;
@@ -86,4 +88,24 @@ h6 {
 	overflow: hidden;
 	margin:0 auto;
 	width: 1170px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    float: left;
+    position: relative;
+	background: #fff;
+}
+
+footer .copyright {
+	height: 25px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+footer .contact h3 {
+    width: 400px;
+    float: left;
 }

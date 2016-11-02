@@ -5,7 +5,7 @@
 	<div class="cover-img">
 			<img src="./local/resources/assets/img/cover3.jpg">
 	</div>	
-	<div class="about-us">
+	<div id="onama" class="about-us">
 		<div class="box">
 			<h2>O Nama</h2>
 			<div class="text">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="product-element">
+	<div id="proizvod" class="product-element">
 		<div class="img-container">	
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/oil2.jpg">
@@ -25,7 +25,7 @@
 		</div>	
 	</div>
 	<div class="sl-box">
-		<p class="text">We are a global design and technology consultancy.</p>
+		<p class="text">Lorem ipsum dolor sit amet!</p>
 		<div class="rw-box container">
 			<div class="cl one">
 				<div class="box">
@@ -65,11 +65,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="product-element">	
+	<div class="product-element">
 		<div class="img-container">
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/seeds.jpg">
 		</div>
 	</div>
-	
 @endsection
