@@ -6,7 +6,7 @@
 			<img src="./local/resources/assets/img/cover3.jpg">
 	</div>	
 	<!-- pocinje about us el -->
-	<div class="about-us">
+	<div id="onama" class="about-us">
 		<div class="box">
 			<h2>O Nama</h2>
 			<div class="text">
@@ -19,7 +19,7 @@
 	</div>
 	<!--zavrsava se about us el  -->
 	<!-- pocinje product el  -->
-	<div class="product-element">
+	<div id="proizvod" class="product-element">
 		<div class="img-container">	
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/oil2.jpg">
@@ -35,7 +35,7 @@
 	<!-- zavrsava product el -->
 	<!-- ovde pocinje sl el -->
 	<div class="sl-box">
-		<p class="text">We are a global design and technology consultancy.</p>
+		<p class="text">Lorem ipsum dolor sit amet!</p>
 		<div class="rw-box container">
 			<div class="cl one">
 				<div class="box">
@@ -82,6 +82,5 @@
 			<img src="./local/resources/assets/img/seeds.jpg">
 		</div>
 	</div>
-	<!-- zavrsava se product el -->
-	
+	<!-- zavrsava se product el -->	
 @endsection
