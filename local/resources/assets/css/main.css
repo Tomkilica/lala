@@ -1,9 +1,18 @@
-body, header, div, p, nav, h1, h2, h3, ul, li, a, i {
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+body, header, div, p, nav, h1, h2, h3,h4, h5, h6,ul, li, a, i {
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
 	font-size: 100%;
-	font-family: inherit;
+	font-family: 'Roboto-Medium', 'Open Sans', sans-serif;
+}
+* {
+  	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 header {
 	width: 100%;
@@ -38,11 +47,39 @@ header ul li:hover a {
 }
 header ul li:hover .grey-underline {
 	width: 85px;
-
 }
 header img {
     padding-left: 29px;
     padding-top: 17px;
     width: 68px;
     height: auto;
+}
+h2 {
+	font-size: 45px;
+	color: #373737;
+	letter-spacing: 3px;
+}
+h4 {
+	font-size: 25px;
+    font-weight: normal;
+ 	color: #515151;
+    letter-spacing: 0.6px;
+}
+h5 {
+  	font-size: 19px;
+    font-weight: normal;
+ 	color: #515151;
+    letter-spacing: 0.6px;
+}
+h6 {
+	font-size: 15px;
+    color: #94949d;
+    letter-spacing: 0.6px;
+    font-weight: normal;
+}
+.container {
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+	width: 1170px;
 }

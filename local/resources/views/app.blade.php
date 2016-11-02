@@ -8,7 +8,7 @@
 	<title>Lala</title>
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/home.css">
-
+	<link rel="stylesheet" href="./local/resources/assets/fonts/font-awesome/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -22,7 +22,6 @@
 			<li>
 				<a href="#">Proizvodi</a>
 				<div class="grey-underline"></div>
-
 			</li>
 			<li>
 				<a href="#">Kontakt</a>
