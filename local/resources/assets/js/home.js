@@ -22,4 +22,16 @@ $( document ).ready(function() {
   		$('.scrollTop a').scrollTop();
 	}
 	scrollNav();
+
+
+ $('#button').on('click', function(){
+		$('#product-title').addClass('active');
+
+	});
+
+
+
+
 });
+
+	

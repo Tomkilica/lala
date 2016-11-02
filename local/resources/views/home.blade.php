@@ -23,10 +23,11 @@
 		<div class="img-container">	
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/oil2.jpg">
-			<div class="product-title">
+			<div id="product-title" class="product-title">
+				<div class="white-line"></div>
 				<h2>Suncokretovo ulje</h2>
 				<h6>Vise o proizvodu</h6>
-				<button><!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> --><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+				<button id="button"><!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> --><i class="fa fa-angle-down" aria-hidden="true"></i></button>
 				<h6 class="img-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 				</h6>
 			</div>
