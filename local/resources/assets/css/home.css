@@ -45,6 +45,8 @@
     width: 75%;
     margin: 0 auto;    
 }
+/*zavrsavase about us*/
+/*pocinje product el*/
 .product-element {
 	width: 100%;
 	float: left;
@@ -77,24 +79,68 @@
 	width: 100%;
 	height: 100%;
 }
-.white {
-	width: 100%;
-	float: left;
-	overflow: hidden;
-	padding: 50px 0 50px 0;
-}
-.product-element .img-container h2 {
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	z-index: 99999;
+.product-element .img-container .product-title {
+	width: 50%;
+    height: 110px;
+    border-left: 3px solid #fff;
     position: absolute;
-    top: 50%;
-    margin-top: -25.5px;
+    top: 94px;
+    left: 8%;
+    z-index: 999;
 }
-.product-element .img-container h2:hover {
-	cursor: pointer;
+.product-title:hover{
+	margin-top: 100px;
 }
+
+
+
+
+
+.product-element .img-container .product-title h2 {
+	width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    color: #fff; 
+
+    
+}
+
+
+.product-element .img-container .product-title  button {
+    outline: none;
+    background-color: transparent;
+    margin-left: 57px;
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+}
+.product-element .img-container  button:hover {
+	border: 2px solid#fff;
+    border-radius: 92px;
+}
+
+.product-element .img-container .product-title h6 {
+	color: #fff;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.product-element .img-container .product-title button i {
+	color: #fff;
+    width: 26px;
+    font-size: 26px;
+    line-height: 0.9;
+    margin-left: -6.2px;
+    margin-top: 0.5px;
+}
+.img-text {
+	display: none;
+}
+
+
 /*slogan*/
 .sl-box {
 	width: 100%;
@@ -107,7 +153,7 @@
 .sl-box .text {
     padding-top: 80px;
     padding-bottom: 110px;
-    width: 460px;
+    width: 670px;
     text-align: center;
     color: #22272e;
     font-size: 50px;
@@ -141,29 +187,14 @@
 }
 .sl-box .one {
 	left: -25%;
-	opacity: 0;
-  	transition: left 1.5s 2.7s ease-out,opacity 3s 3.5s;
 }
 .sl-box .two {
 	left: -50%;
-	opacity: 0;
-	transition: left 2s 2s ease-out,opacity 2s 2.5s;
 }
 .sl-box .three {
 	left: -75%;
-	opacity: 0;
-	transition:  left 3s 1s, opacity 2s 1.5s;
 }
 .sl-box .four {
 	left: -100%;
-	opacity: 0;
-	transition:  left 3s, opacity 2s 0.5s;
 }
-.sl-box .slideLeft.cl{
-    left: 0%;
-	opacity: 1;
-}
-
-
-
 
