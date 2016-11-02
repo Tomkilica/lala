@@ -25,7 +25,7 @@
 				<div class="grey-underline"></div>
 			</li>
 			<li>
-				<a href="#">Kontakt</a>
+				<a href="#contact">Kontakt</a>
 				<div class="grey-underline"></div>
 
 			</li>
@@ -35,10 +35,17 @@
 	@yield('content')
 
   	<footer>
-		<div class="contact">
-		 	<h3>Želite da poslujete sa nama?</h3>
-		 	<h5>info@serieseight.com</h5>
-		</div>
+  		<div class="container">
+			<div class="contact">
+			 	<h3>Želite da poslujete sa nama?</h3>
+			 	<div class="info">
+					<h5>infolala@yahoo.com</h5>
+					<h5>Srbija</h5>
+					<h5>115 Highbury New Park</h5>
+					<h5>+381 65 333 33 33</h5>
+				</div>
+			</div>
+  		</div>
   		<div class="copyright">Copyright © 2017</div>
 	</footer>
 </body>

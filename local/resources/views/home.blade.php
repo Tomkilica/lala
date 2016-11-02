@@ -71,4 +71,5 @@
 			<img src="./local/resources/assets/img/seeds.jpg">
 		</div>
 	</div>
+	<div id="contact"></div>
 @endsection

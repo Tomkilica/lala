@@ -2,10 +2,16 @@
     height: 2px;
     width: 100%;
     background: #339933;  	
+	position: relative;
+	z-index: 1;
 }
 .cover-img {
+	position: relative;
+	z-index: 1;
 	width: 100%;
 	overflow: hidden;
+    background: #fff;
+    padding-top: 30px;
 }
 .cover-img img {
 	width: 100%;
@@ -14,6 +20,10 @@
 /*pocinje about us el*/
 .about-us {
 	width: 100%;
+	position: relative;
+	z-index: 1;
+	float: left;
+    background: #fff;
 }
 .about-us .box {
 	margin:0 auto;
@@ -28,6 +38,8 @@
 	width: 50%;
 	float: left;
 	margin-bottom: 130px;
+	position: relative;
+	z-index: 1;
 }
 .about-us .box .text h5 {
     width: 75%;
@@ -36,6 +48,15 @@
 .product-element {
 	width: 100%;
 	float: left;
+	z-index: 1;
+	position: relative;
+}
+#contact {
+	width: 100%;
+	float: left;
+	z-index: 1;
+	position: relative;
+	margin-bottom: 300px;
 }
 .product-element .img-container {
 	overflow: hidden;
@@ -79,6 +100,8 @@
 	width: 100%;
 	position: relative;
     float: left;
+	z-index: 1;
+    background: #fff;
 }
 
 .sl-box .text {
