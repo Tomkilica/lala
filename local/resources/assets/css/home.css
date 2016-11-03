@@ -82,63 +82,138 @@
 .product-element .img-container .product-title {
 	width: 50%;
     height: 110px;
-    border-left: 3px solid #fff;
     position: absolute;
     top: 94px;
-    left: 8%;
     z-index: 999;
+    transition: height 2s;
 }
-.product-title:hover{
-	margin-top: 100px;
+.product-element .img-container .first {
+    left: 8%;
+    border-left: 3px solid #fff;
+
 }
+.product-element .img-container .second {
+	right: 8%;
+	border-right: 3px solid #fff;
 
-
-
-
-
+}
+.product-element .img-container .product-title:hover {
+	height: 200px;
+}
 .product-element .img-container .product-title h2 {
 	width: 100%;
     text-align: left;
     padding-left: 20px;
-    color: #fff; 
+    color: #fff;  
+    padding-bottom: 16px  
+}
+.product-element .img-container .product-title .arrow {
+	position: absolute;
+    top: 87px;
+    width: 30px;
+    height: 30px;
+    transition: top 2s;
 
-    
+}
+.product-element .img-container .first .arrow {
+    left: 65px;
+	
 }
 
+.product-element .img-container .second .arrow {
+	right: 65px;
+}
 
-.product-element .img-container .product-title  button {
+.product-element .img-container .second h2,
+.product-element .img-container .second .more-info,
+.product-element .img-container .second .img-text {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.product-element .img-container .product-title:hover .arrow {
+	top: 177px;
+	transition: top 2s;
+
+}
+.product-element .img-container .product-title .arrow i {
+	color: #fff;
+	position: relative;
+	font-size: 40px;
+	transform: rotate(0);
+	transition: transform 1s 2s;
+}
+.product-element .img-container .product-title .arrow:hover i {
+	color: #373737;
+}
+
+.product-element .img-container .product-title:hover i {
+	transform: rotate(180deg);
+	transition: transform 1s 1s;
+
+}
+/*.product-element .img-container .product-title  button {
     outline: none;
+    position: absolute;
     background-color: transparent;
     margin-left: 57px;
-    margin-top: 8px;
+    top: 95px;
     border: 2px solid transparent;
-    border-radius: 13px;
+    border-radius: 16px;
     width: 29px;
     height: 29px;
     cursor: pointer;
-}
-.product-element .img-container  button:hover {
+    transform: rotate(0);
+    transition: top 2s 0.5s, transform 1s 2s;
+}*/
+/*.product-element .img-container  button:hover {
 	border: 2px solid#fff;
     border-radius: 92px;
-}
+}*/
 
 .product-element .img-container .product-title h6 {
 	color: #fff;
     width: 100%;
     padding-left: 20px;
-    padding-top: 8px;
+    padding-top: 0;
 }
-.product-element .img-container .product-title button i {
+.product-element .img-container .product-title .more-info {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 2s 2s;
+}
+.product-element .img-container .product-title:hover .more-info {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 2s, visibility 2s;
+
+}
+
+.product-element .img-container .product-title .img-text {
+	position: relative;
+	top: -80px;
+	transition: top 2s;
+}
+/*.product-element .img-container .product-title:hover button {
+	top: 180px;
+	transform: rotate(180deg);
+	transition: top 2s, transform 1s 2s;
+}*/
+.text-box {
+	overflow: hidden;
+}
+.product-element .img-container .product-title:hover .img-text {
+	top: 0;
+	transition: top 2s;
+}
+/*.product-element .img-container .product-title button i {
 	color: #fff;
     width: 26px;
     font-size: 26px;
     line-height: 0.9;
     margin-left: -6.2px;
     margin-top: 0.5px;
-}
-.img-text {
-	display: none;
-}
+}*/
 
 
 /*slogan*/

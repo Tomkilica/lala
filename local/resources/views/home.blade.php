@@ -7,6 +7,7 @@
 	</div>	
 	<!-- pocinje about us el -->
 	<div id="onama" class="about-us">
+		<i class="fa fa-angle-down" aria-hidden="true"></i>
 		<div class="box">
 			<h2>O Nama</h2>
 			<div class="text">
@@ -23,17 +24,18 @@
 		<div class="img-container">	
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/oil2.jpg">
-			<div id="product-title" class="product-title">
-				<div class="white-line"></div>
+			<div id="product-title" class="product-title first">
 				<h2>Suncokretovo ulje</h2>
-				<h6>Vise o proizvodu</h6>
-				<button id="button"><!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> --><i class="fa fa-angle-down" aria-hidden="true"></i></button>
-				<h6 class="img-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				</h6>
+				<h6 class="more-info">Vise o proizvodu</h6>
+				<div class="text-box">
+					<h6 class="img-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+				</div>
+				<!-- <button id="button"><i class="fa fa-angle-down" aria-hidden="true"></i></button>				 -->
+				<div class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
 			</div>
 		</div>	
 	</div>
-	<!-- zavrsava product el -->
+	<!-- zavrsava product el
 	<!-- ovde pocinje sl el -->
 	<div class="sl-box">
 		<p class="text">Lorem ipsum dolor sit amet!</p>
@@ -81,8 +83,16 @@
 		<div class="img-container">
 			<div class="opacity"></div>	
 			<img src="./local/resources/assets/img/seeds.jpg">
+			<div id="product-title" class="product-title second">
+				<h2>Ostali proizvodi</h2>
+				<h6 class="more-info">Vise o proizvodu</h6>
+				<div class="text-box">
+					<h6 class="img-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+				</div>
+				<!-- <button id="button"><i class="fa fa-angle-down" aria-hidden="true"></i></button>				 -->
+				<div class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+			</div>
 		</div>
 	</div>
 	<!-- zavrsava se product el -->	
-	<div id="contact"></div>
 @endsection
