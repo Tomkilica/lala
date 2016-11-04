@@ -95,4 +95,5 @@
 		</div>
 	</div>
 	<!-- zavrsava se product el -->	
+	<div id="contact"></div>
 @endsection

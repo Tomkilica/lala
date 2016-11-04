@@ -53,13 +53,6 @@
 	z-index: 1;
 	position: relative;
 }
-#contact {
-	width: 100%;
-	float: left;
-	z-index: 1;
-	position: relative;
-	margin-bottom: 300px;
-}
 .product-element .img-container {
 	overflow: hidden;
 	display: block;
@@ -284,7 +277,11 @@
     left: 0%;
 	opacity: 1;
 }
-
-
-
-
+/*slogan*/
+#contact {
+	width: 100%;
+	float: left;
+	z-index: 1;
+	position: relative;
+	margin-bottom: 359px;
+}
