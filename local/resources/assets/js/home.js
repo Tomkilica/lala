@@ -21,9 +21,20 @@ $( document ).ready(function() {
 	}
 	scrollNav();
 
- 	$('#button').on('click', function(){
-		$('#product-title').addClass('active');
+ 	$('#arrow').on('click', function(){
+		$('#more-info').toggleClass('more-info-active');
+    $('#img-text').toggleClass('img-text-active');
+    $(this).toggleClass('arrow-active');
+    $('#icon').toggleClass('icon-active');    
+    $('#product-title').toggleClass('product-title-active'); 
 	});
+  $('#arrow-second').on('click', function(){
+    $('#more-info-second').toggleClass('more-info-active');
+    $('#img-text-second').toggleClass('img-text-active');
+    $(this).toggleClass('arrow-active');
+    $('#icon-second').toggleClass('icon-active');    
+    $('#product-title-second').toggleClass('product-title-active'); 
+  });
 
  	$('footer .container .button button').on('click', function(){
 		$('footer .box').toggleClass('box-inactive');
