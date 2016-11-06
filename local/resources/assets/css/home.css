@@ -32,7 +32,7 @@
 .about-us .box h2 {	
 	width: 100%;
 	text-align: left;
-	padding: 100px 0 70px 70px;
+	padding: 100px 0 70px 25px;
 }
 .about-us .box .text {
 	width: 50%;
@@ -42,7 +42,7 @@
 	z-index: 1;
 }
 .about-us .box .text h5 {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;    
 }
 /*zavrsavase about us*/

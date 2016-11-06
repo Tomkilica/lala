@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/home.css">
 	<link rel="stylesheet" href="./local/resources/assets/fonts/font-awesome/css/font-awesome.min.css">
-	<script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+	<script src='./local/resources/assets/js/jquery-1.9.1.min.js'></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src='./local/resources/assets/js/home.js'></script>
 </head>
