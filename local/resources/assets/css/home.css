@@ -38,7 +38,7 @@
 .about-us .box h2 {	
 	width: 100%;
 	text-align: left;
-	padding: 100px 0 70px 79px;
+	padding: 100px 0 70px 20px;
 }
 .about-us .box .text {
 	width: 50%;
@@ -48,8 +48,11 @@
 	z-index: 1;
 }
 .about-us .box .text h5 {
-    width: 70%;
-    margin: 0 auto;    
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
 }
 /*zavrsavase about us*/
 /*pocinje product el*/
@@ -99,7 +102,7 @@
 
 }
 .product-title-active {
-	height: 200px !important;
+	height: 240px !important;
 }
 .product-element .img-container .product-title h2 {
 	width: 100%;
@@ -136,7 +139,7 @@
 }
 
 .arrow-active {
-	top: 200px !important;
+	top: 240px !important;
 	-webkit-transition: top 2s;
 	-moz-transition: top 2s;
 	-o-transition: top 2s;
@@ -224,7 +227,7 @@
 .sl-box .text {
     padding-top: 80px;
     padding-bottom: 110px;
-    width: 670px;
+    width: 830px;
     text-align: center;
     color: #22272e;
     font-size: 50px;
@@ -245,7 +248,7 @@
 .sl-box .cl .box {
 	width: 100%;
     border-top: 3px solid #f9c31e;
-    padding: 40px 20px;
+    padding: 40px 10px;
     text-align: center;
 }
 .sl-box .cl .box .fa {
@@ -287,6 +290,15 @@
 .sl-box .slideLeft.cl{
     left: 0%;
 	opacity: 1;
+}
+.second .img-container .product-title .img-text {
+		top: -380px;
+}
+.second .img-container .arrow-active {
+	top: 380px!important;
+}
+.second .img-container .product-title-active {
+	height: 360px!important;
 }
 /*slogan*/
 #contact {
@@ -494,6 +506,9 @@
 		}
 		footer .container .button {
 			width: 30%;
+		}
+		footer #map-canvas {
+			height: 350px;
 		}
 
 	}
